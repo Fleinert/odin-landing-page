@@ -84,10 +84,12 @@ h2 {
 .info-cards {
     display: flex;
     align-items: start;
+    gap: 40px;
+    text-align: center;
 }
 
 .card-image {
-    max-width: 200px;
+    max-width: 400px;
     max-height: 200px;
     height: auto;
     width: auto;
