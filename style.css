@@ -61,7 +61,7 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
-    min-height: 10px;
+    height: auto;
     width: auto;
 }
 
@@ -83,13 +83,18 @@ h2 {
 
 .info-cards {
     display: flex;
+    align-items: start;
 }
 
-.card {
+.card-image {
     max-width: 200px;
     max-height: 200px;
     height: auto;
     width: auto;
+    border: #3882f6;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
 }
 
 .card-text {
