@@ -75,10 +75,14 @@ button {
 .content {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 h2 {
     padding: 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .info-cards {
@@ -104,7 +108,8 @@ h2 {
 }
 
 .testimonial-section {
-
+    display: flex;
+    padding: 20px;
 }
 
 .testimonial {
