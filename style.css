@@ -30,6 +30,8 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-content {
@@ -64,8 +66,64 @@ button {
 }
 
 .awesome-image {
-    min-width: 400px;
+    max-height: 400px;
     max-width: 400px;
     height: auto;
+    width: auto;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.info-cards {
+    display: flex;
+}
+
+.card {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+}
+
+.card-text {
+
+}
+
+.testimonial-section {
+
+}
+
+.testimonial {
+
+}
+
+.credit {
+
+}
+
+.contact {
+
+}
+
+.contact-header {
+
+}
+
+.contact-text {
+
+}
+
+.footer {
+
+}
+
+.footer-text {
+
+}
