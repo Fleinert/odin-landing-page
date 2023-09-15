@@ -136,21 +136,30 @@ h2 {
 }
 
 .contact {
-
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    max-width: 400px;
+    max-height: 200px;
+    flex-direction: column;
 }
 
 .contact-header {
-
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .contact-text {
-
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .footer {
-
+    background-color: #1f2937;
+    padding: 40px;
 }
 
 .footer-text {
-
+    color: #e5e7eb;
+    font-size: 18px;
 }
